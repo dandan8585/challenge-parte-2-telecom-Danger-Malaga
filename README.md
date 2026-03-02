@@ -124,7 +124,14 @@ Dado que el costo de error es asimétrico:
 
 > Un Falso Negativo (cliente que se va sin ser detectado) es más costoso que un Falso Positivo.
 
-Por lo tanto, se priorizó **Recall y ROC-AUC sobre Accuracy**.
+
+![imagen alt](https://github.com/dandan8585/challenge-parte-2-telecom-Danger-Malaga/blob/2b49116e5c09c03388a41648406697be12d971e3/fasos%20negativos.png)
+Por lo tanto, se priorizó
+
+
+
+**Recall y ROC-AUC sobre Accuracy**.
+
 
 ---
 
@@ -138,6 +145,10 @@ Por lo tanto, se priorizó **Recall y ROC-AUC sobre Accuracy**.
 ### Recomendación Final
 
 El modelo **Random Forest** mostró:
+
+![imagen alt](https://github.com/dandan8585/challenge-parte-2-telecom-Danger-Malaga/blob/2b49116e5c09c03388a41648406697be12d971e3/ROC.png)
+
+![imagen alt](https://github.com/dandan8585/challenge-parte-2-telecom-Danger-Malaga/blob/2b49116e5c09c03388a41648406697be12d971e3/PRECION%20RECALL.png)
 
 - Mayor ROC-AUC
 - Mejor capacidad de discriminación
@@ -169,7 +180,7 @@ El modelo permite definir el siguiente arquetipo:
 
 Este segmento debe ser priorizado en estrategias de retención.
 
----
+---![imagen alt](https://github.com/dandan8585/challenge-parte-2-telecom-Danger-Malaga/blob/2b49116e5c09c03388a41648406697be12d971e3/DISTRIBUCION%20CARGOS%20MENSUALES.png)
 
 # 💼 9. Implicancias Estratégicas
 
@@ -225,7 +236,7 @@ Indicadores de éxito:
 - ROI de campañas de retención
 - Lift vs segmentación aleatoria
 
----
+---![imagine alt](https://github.com/dandan8585/challenge-parte-2-telecom-Danger-Malaga/blob/2b49116e5c09c03388a41648406697be12d971e3/15%20VARIAABLES.png)
 
 # 📌 Conclusión
 
