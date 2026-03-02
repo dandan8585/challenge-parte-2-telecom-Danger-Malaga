@@ -24,7 +24,14 @@ El objetivo es construir un pipeline robusto que permita:
 - Identificar los principales drivers de cancelación
 - Generar insights accionables para el negocio
 
----
+El churn está fuertemente asociado a clientes recientes y con cargos mensuales altos.
+Random Forest es el modelo más robusto para predicción.
+El balanceo de clases mejora la detección real de abandono.
+Existe oportunidad clara de intervención temprana y segmentación por riesgo.
+La estrategia óptima combina:
+Modelo predictivo (RF)
+Scoring por probabilidad
+Intervención focalizada en clientes de alto valor y alto riesgo
 
 # 🧹 2. Preparación de Datos
 
@@ -44,7 +51,11 @@ El dataset presenta **desbalance moderado de clases**, lo cual influyó en la se
 
 ## 🔴 Tipo de Contrato
 
+
 Los clientes con contrato **Month-to-Month (mensual)** presentan una tasa de cancelación significativamente mayor que aquellos con contratos anuales o bianuales.
+
+![imagen alt](https://github.com/dandan8585/challenge-parte-2-telecom-Danger-Malaga/blob/646b773a1916f763d50bb301ba580ebb0ee46f07/TERNURE.png)
+
 
 **Interpretación de negocio:**
 - Bajo compromiso contractual
